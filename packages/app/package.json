@@ -1,0 +1,30 @@
+{
+	"name": "@tfcf/app",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"dev": "vinxi dev",
+		"build": "vinxi build",
+		"start": "vinxi start"
+	},
+	"dependencies": {
+		"@auth/core": "0.37.4",
+		"@solid-mediakit/auth": "^3.1.2",
+		"@solidjs/meta": "^0.29.4",
+		"@solidjs/router": "^0.15.1",
+		"@solidjs/start": "^1.1.0",
+		"@unocss/reset": "^65.4.3",
+		"class-variance-authority": "^0.7.1",
+		"clsx": "^2.1.1",
+		"solid-js": "^1.9.2",
+		"tailwind-merge": "^3.0.1",
+		"unocss": "^65.4.3",
+		"unocss-preset-animations": "^1.1.1",
+		"valibot": "1.0.0-rc.0",
+		"vinxi": "^0.5.3"
+	},
+	"devDependencies": {
+		"@types/node": "catalog:",
+		"typescript": "catalog:"
+	}
+}

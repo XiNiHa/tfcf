@@ -1,0 +1,15 @@
+{
+	"extends": "../../tsconfig.json",
+	"compilerOptions": {
+		"noEmit": true,
+		"jsxImportSource": "solid-js",
+		"jsx": "preserve",
+		"types": ["vinxi/types/client", "@solidjs/start/env"],
+		"lib": ["ES2022", "DOM", "DOM.Iterable"],
+		"baseUrl": "./",
+		"paths": {
+			"~/*": ["./src/*"]
+		}
+	},
+	"include": ["src", "app.config.ts"]
+}

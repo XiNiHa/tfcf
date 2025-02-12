@@ -1,1 +1,14 @@
+.DS_Store
+Thumbs.db
+
 node_modules/
+*.tsbuildinfo
+
+dist/
+.solid/
+.output/
+.vinxi/
+app.config.timestamp_*.js
+
+.env
+*.local

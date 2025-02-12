@@ -1,6 +1,9 @@
 {
 	"private": "true",
 	"type": "module",
+	"scripts": {
+		"fix": "biome check --fix"
+	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4"
 	},
