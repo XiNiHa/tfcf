@@ -9,6 +9,7 @@
 	},
 	"dependencies": {
 		"@auth/core": "0.37.4",
+		"@auth/drizzle-adapter": "^1.7.4",
 		"@solid-mediakit/auth": "^3.1.2",
 		"@solidjs/meta": "^0.29.4",
 		"@solidjs/router": "^0.15.1",
@@ -16,15 +17,21 @@
 		"@unocss/reset": "^65.4.3",
 		"class-variance-authority": "^0.7.1",
 		"clsx": "^2.1.1",
+		"drizzle-orm": "^0.39.3",
 		"solid-js": "^1.9.2",
 		"tailwind-merge": "^3.0.1",
 		"unocss": "^65.4.3",
 		"unocss-preset-animations": "^1.1.1",
+		"uuidv7": "^1.0.2",
 		"valibot": "1.0.0-rc.0",
 		"vinxi": "^0.5.3"
 	},
 	"devDependencies": {
+		"@cloudflare/workers-types": "^4.20250204.0",
+		"@dotenvx/dotenvx": "^1.35.0",
 		"@types/node": "catalog:",
-		"typescript": "catalog:"
+		"drizzle-kit": "^0.30.4",
+		"typescript": "catalog:",
+		"wrangler": "^3.108.1"
 	}
 }

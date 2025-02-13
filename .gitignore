@@ -8,6 +8,8 @@ dist/
 .solid/
 .output/
 .vinxi/
+.wrangler/
+wrangler.toml
 app.config.timestamp_*.js
 
 .env

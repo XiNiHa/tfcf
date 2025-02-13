@@ -6,6 +6,7 @@
 		"strict": true,
 		"incremental": true,
 		"isolatedModules": true,
+		"moduleDetection": "force",
 		"esModuleInterop": true,
 		"skipLibCheck": true,
 		"resolveJsonModule": true,
