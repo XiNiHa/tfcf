@@ -2,6 +2,7 @@
 	"private": "true",
 	"type": "module",
 	"scripts": {
+		"check": "biome check",
 		"fix": "biome check --fix"
 	},
 	"devDependencies": {
